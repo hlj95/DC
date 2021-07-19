@@ -1,0 +1,16 @@
+body {
+    background-image: url("bgp.jpg");
+    background-repeat: repeat-x; 
+  }
+
+.menu {
+    text-align: right;
+}
+
+h1 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    
+}
