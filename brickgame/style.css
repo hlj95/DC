@@ -37,6 +37,11 @@ body{
     color: blue;
 }
 
+.flex-container > .green {
+    background-color: green;
+    color: green;
+}
+
 #lefteye {
     background-color: white;
     color: white;
