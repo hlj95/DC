@@ -1,0 +1,52 @@
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+#menu {
+    text-align: center;
+    justify-content: space-between;
+    display:flex ; /* default is row/horizontal */
+    background-color: rgb(202, 174, 16); 
+    height: 85px;
+
+    align-items: center;
+}
+
+
+#banner img{
+    width: 100%;
+}
+
+#pictures {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#box img{
+    height: 200px;
+    width: 200px;
+}
+
+
+@media (min-width: 20px) and (max-width: 480px) {
+
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #banner{
+       display: none; 
+    }
+
+    #pictures {
+        flex-direction: column;
+        align-items: center;
+    }
+}
