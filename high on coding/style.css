@@ -1,8 +1,7 @@
 
+
 body {
     background-color: purple;
-  font: 100% 
-  color:
 }
 
 .nav {
@@ -12,9 +11,22 @@ body {
 }
 
 .card {
-    align-items: r;
+    align-content: center;
 }
 
 .card-body { 
-    align-items: center;
+    align-content: center;
+    
 }
+.flex-container > div {
+    align-items: center;
+    background-color: red;
+    width: 200px;
+    margin: 1px;
+    height: auto;
+    color: red;
+    line-height: 30px;
+    border-top: 1px solid white;
+    border-left: 3px solid white;
+}
+
