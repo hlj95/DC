@@ -55,24 +55,6 @@ body {
 }
 
 
-#container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-
-#menu {
-    text-align: center;
-    justify-content: space-between;
-    display:flex ; /* default is row/horizontal */
-    height: 85px;
-
-    align-items: center;
-}
-
-
-
 
 .starterItem img{
     height: 200px;
