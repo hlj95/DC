@@ -6,34 +6,43 @@ body {
 h1 {
     text-align: center;
 }
-.newslist {
+.newslist li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .newslist img {
+    align-content: center;
     width: 200px;
     height: 200px;
 }
 
-.container div {
+.container li{
     margin: auto;
     align-self: center;
     display: flex;
-
+    flex-direction: column;
     flex-wrap: wrap;
     height: max-content;
     text-align: center;
+    width: 85%;
 }
 
-#newsUL {
+.container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+#newsUL li {
     text-align: center;
     background-color: aliceblue;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    width: 500px;
 }
+
 
 .news {
     display: flex;
