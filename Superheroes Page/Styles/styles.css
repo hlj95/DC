@@ -1,0 +1,59 @@
+#container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+
+
+body {
+    background-image: url(../Images/background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+header div{
+    background-image: url(../Images/now-showing.gif);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 151px;
+}
+
+
+#moviesUL img {
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+#moviesUL {
+    justify-content: space-between;
+    list-style: none;   
+    padding: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+#title {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+@media (min-width: 20px) and (max-width: 480px) {
+
+
+    #moviesUL {
+        flex-direction: column;
+        align-items: center;
+    }
+}
