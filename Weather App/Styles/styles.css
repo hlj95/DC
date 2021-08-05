@@ -12,7 +12,7 @@ body {
 h1 {
     margin: auto;
     text-align: center;
-    color: aliceblue;
+    color: rgb(40, 112, 175);
 }
 
 #input {
@@ -21,10 +21,17 @@ h1 {
 
 #info {
     text-align: center;
-    color:aliceblue;
+    color:rgb(23, 77, 124);
 }
 
 #weather {
     list-style: none ;
 }
 
+.container {
+    min-height: 50vh;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
