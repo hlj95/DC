@@ -13,18 +13,25 @@
   </head>
 
   <body>
-
-    <h1>Input City Name</h1>
-    <div id="input">
-      <input type="text" id="cityName" placeholder="Enter City " />
-      <button id="addLocButton">ENTER</button>
+    <div class="container">
+      <div class="card text-center">
+        <div class="card-header">
+          Weather App
+        </div>
+        <div class="card-body" id="input">
+          <h1 class="card-title">Weather</h1>
+          <p class="card-text">Please input the name of the city's current weather you would like to see.</p>
+          <input type="text" id="cityName" placeholder="Enter City " />
+          <button type="button" class="btn btn-outline-info" id="addLocButton">ENTER</button>  
+        </div>
+        <div class="card-footer text-muted">
+          <div id="info">
+            <ul id="weather">
+          </ul>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div id="info">
-      <ul id="weather">
-      </ul>
-    </div>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="Scripts/script.js"></script>
   </body>
