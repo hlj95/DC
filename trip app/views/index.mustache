@@ -17,9 +17,10 @@
             <button type="button" class="btn btn-outline-info" id="addTrip">ENTER</button>
         </form>
         <ul id="tripsUL">
-        {{allTrips}}
-        <li>{{tripTitle}} - <img src = "{{tripImage}}" /> - {{tripDOD}} - {{tripDOR}}</li>
-        </ul>
+        {{#allTrips}}
+            <li>{{tripTitle}} - <img src = "{{tripImage}}" /> - {{tripDOD}} - {{tripDOR}}</li>
+            </ul>
+        {{/allTrips}}
 
 
     </body>
