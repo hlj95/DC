@@ -1,0 +1,47 @@
+body {
+    background-image: url(../Images/background.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    color: rgb(40, 65, 175);
+}
+
+
+h6 {
+    margin: auto;
+    text-align: center;
+    color: azure;
+}
+
+#input {
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+    color:rgb(23, 77, 124);
+    padding-right: 50px;
+
+}
+
+#weather {
+    list-style: none ;
+}
+
+.container {
+    min-height: 70vh;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
