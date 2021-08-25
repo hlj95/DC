@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login & Register</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+
+
+    <body>
+
+        <div id="loginDiv">
+
+            <form method="POST" action="/login">
+                <h2>Log In : </h2>
+                <input type="text" placeholder="Username" name="username">
+                <input type="password" placeholder="Password" name="password">
+                <button id="loginBtn">Log In</button>
+            </form>
+
+
+            <div id="registerDiv">
+                <form method="POST" action="/register" >
+                    <h4>Register : </h4>
+                    <input type="text" name="newUsername" id="usernameInput" placeholder="Username">
+                    <input type="password" name="newPassword" id="passwordInput" placeholder="Password">
+                    <button>Register</button>
+                </form>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
