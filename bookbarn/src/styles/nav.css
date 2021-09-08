@@ -1,0 +1,9 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    background-color: rgb(43, 226, 217);
+    padding: .3em;
+}
