@@ -2,7 +2,7 @@
 import { Component } from "react";
 import '../styles/booklist.css'
 
-class BooksList extends Component {
+class BookList extends Component {
     render() {
 
         const imgURL = 'https://raw.githubusercontent.com/benoitvallon/100-best-books/master/static/'
