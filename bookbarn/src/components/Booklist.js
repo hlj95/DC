@@ -26,4 +26,4 @@ class BookList extends Component {
     }
 }
 
-export default BooksList
+export default BookList
