@@ -14,11 +14,6 @@ const reducer = (state = initialState, action) => {
                 ...state,
                 cart: state.cart.concat(action.payload)
             };
-        case actionTypes.DELETE:
-            return {
-                ...state,
-                cart: state.cart.filter((book) => book != action.payload)
-            };
         default:
             return state    
     }   
