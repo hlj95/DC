@@ -3,8 +3,6 @@ import { connect } from "react-redux";
 import { useState } from "react";
 import * as actionCreators from "../store/creators/actionCreators";
 
-// import { allBooks } from "../store/creators/actionCreators";
-
 
 function AddBook(props) {
     const[book, setBook] = useState({})
