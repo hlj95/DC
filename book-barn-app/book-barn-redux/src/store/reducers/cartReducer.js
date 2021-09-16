@@ -2,7 +2,7 @@ import * as actionTypes from '../actions/actionTypes';
 
 const initialState = {
     cart: []
-}
+} 
 
 const reducer = (state = initialState, action) => {
 
